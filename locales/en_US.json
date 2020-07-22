@@ -4,16 +4,16 @@
   },
   "menu": {
     "support": "Customer Support",
-    "order": "Order updates",
-    "help": "Talk to an agent",
-    "suggestion": "Pay Tuition",
+    "order": "Module Guides",
+    "help": "Other",
+    "suggestion": "Paying Tuition",
     "shop": "Shop now",
     "start_over": "Start over"
   },
   "get_started": {
     "welcome": "Hi {{userFirstName}}! Welcome to The University of Technology, Jamaica, the home of world class athletes!",
     "guidance": "At any time, use the menu below to navigate through the options",
-    "help": "What we can do to help you today?"
+    "help": "What would you like information about today?"
   },
   "leadgen": {
     "promo": "Hi {{userFirstName}}, finding great outfits is now easier and more convenient.",
@@ -23,10 +23,10 @@
     "coupon": "Added your coupon to this thread, you can now check out the discounted summer collection"
   },
   "curation": {
-    "prompt": "Are you looking for an outfit for yourself or someone else?",
-    "occasion": "Great! Let's get started. First, is there an occasion in mind?",
+    "prompt": "Please visit this link to pay your tuition online: https://ecommerce.utech.edu.jm/",
+    "occasion": "You're welcome, bye.",
     "price": "How much are you looking to spend?",
-    "me": "For me!",
+    "me": "Thanks!!",
     "someone": "Someone else",
     "work": "Work",
     "dinner": "Dinner",
@@ -38,7 +38,7 @@
     "show": "Another look"
   },
   "order": {
-    "prompt": "We'll be happy to help you. Select from the following",
+    "prompt": "Please use the following link to view the module selection guide for your course of study: http://utech.edu.jm/admissions/enrolment/undergraduate-students/module",
     "search": "Search by order number",
     "account": "Link my Account",
     "dialog": "Account linking dialog",
@@ -47,14 +47,14 @@
     "status": "Your order is on it’s way, expect to have it in 3 days."
   },
   "care": {
-    "prompt": "To connect you with the right team please let me know what this is about?",
-    "order": "Order Inquiries",
-    "billing": "Billing Issues",
-    "other": "Other",
-    "issue": "Hi {{userFirstName}}, my name is {{agentFirstName}}, I'm here to assist you with any questions you might have about your {{topic}}.",
-    "default": "Hi {{userFirstName}}, my name is {{agentFirstName}}, I'm here to assist you today. How can I help you?",
-    "style": "Hi {{userFirstName}}, my name is {{agentFirstName}}, I’m here to answer questions you might have on our summer styles",
-    "end": "This is as far as the demo goes. Leverage the power of the messenger platform for your business. See https://fb.me/get-sample-oc to learn how to build a similar experience",
+    "prompt": "Please let me know what you want information on.",
+    "order": "Admissions/ Enrollment",
+    "billing": "Fee Payment/ Accounting",
+    "other": "Medical Appointment",
+    "issue": "Hi {{userFirstName}},please visit the following link for information on Admissions/ Enrollemnt: http://utech.edu.jm/admissions.",
+    "default": "Hi {{userFirstName}}, please visit your portal at this link to get your fee payment information: https://evisionweb.utech.edu.jm/",
+    "style": "Hi {{userFirstName}}, please visit the following link to make or view a medical appointment: http://utech.edu.jm/ohcs . Don't forget your health card and ID!",
+    "end": "It was my pleasure serving you. Bye!",
     "help": "Help"
   },
   "survey": {
