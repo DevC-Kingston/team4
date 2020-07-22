@@ -4,10 +4,10 @@
     },
     "menu": {
         "support": "Customer Support",
-        "order": "Module Guides",
+        "module": "Module Guides",
         "help": "Other",
         "suggestion": "Paying Tuition",
-        "shop": "Shop now",
+        "transcript": "Transcript Request",
         "start_over": "Start over"
     },
     "get_started": {
