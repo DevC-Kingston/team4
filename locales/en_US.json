@@ -1,74 +1,74 @@
 {
-  "profile": {
-    "greeting": "Welcome to The University of Technology, Jamaica {{user_first_name}}! Click get started to enjoy our sample automated messaging experience. If you want to build a similar one visit https://fb.me/get-sample-oc"
-  },
-  "menu": {
-    "support": "Customer Support",
-    "order": "Module Guides",
-    "help": "Other",
-    "suggestion": "Paying Tuition",
-    "shop": "Shop now",
-    "start_over": "Start over"
-  },
-  "get_started": {
-    "welcome": "Hi {{userFirstName}}! Welcome to The University of Technology, Jamaica, the home of world class athletes!",
-    "guidance": "At any time, use the menu below to navigate through the options",
-    "help": "What would you like information about today?"
-  },
-  "leadgen": {
-    "promo": "Hi {{userFirstName}}, finding great outfits is now easier and more convenient.",
-    "title": "50% Coupon",
-    "subtitle": "Here is your coupon",
-    "apply": "Apply discount",
-    "coupon": "Added your coupon to this thread, you can now check out the discounted summer collection"
-  },
-  "curation": {
-    "prompt": "Please visit this link to pay your tuition online: https://ecommerce.utech.edu.jm/",
-    "occasion": "You're welcome, bye.",
-    "price": "How much are you looking to spend?",
-    "me": "Thanks!!",
-    "someone": "Someone else",
-    "work": "Work",
-    "dinner": "Dinner",
-    "party": "Party",
-    "sales": "Talk to sales",
-    "shop": "Shop this look",
-    "title": "Summer collection 2019",
-    "subtitle": "Featured outfit",
-    "show": "Another look"
-  },
-  "order": {
-    "prompt": "Please use the following link to view the module selection guide for your course of study: http://utech.edu.jm/admissions/enrolment/undergraduate-students/module",
-    "search": "Search by order number",
-    "account": "Link my Account",
-    "dialog": "Account linking dialog",
-    "searching": "Searching for your last order...",
-    "number": "Sure, please write the order number",
-    "status": "Your order is on it’s way, expect to have it in 3 days."
-  },
-  "care": {
-    "prompt": "Please let me know what you want information on.",
-    "order": "Admissions/ Enrollment",
-    "billing": "Fee Payment/ Accounting",
-    "other": "Medical Appointment",
-    "issue": "Hi {{userFirstName}},please visit the following link for information on Admissions/ Enrollemnt: http://utech.edu.jm/admissions.",
-    "default": "Hi {{userFirstName}}, please visit your portal at this link to get your fee payment information: https://evisionweb.utech.edu.jm/",
-    "style": "Hi {{userFirstName}}, please visit the following link to make or view a medical appointment: http://utech.edu.jm/ohcs . Don't forget your health card and ID!",
-    "end": "It was my pleasure serving you. Bye!",
-    "help": "Help"
-  },
-  "survey": {
-    "prompt": "Hi, want to get quick feedback on your recent experience with {{agentFirstName}}",
-    "positive": "Thanks for the feedback",
-    "neutral": "Thanks for the feedback, if there something we should improve feel free to comment with #suggestion",
-    "negative": "Thanks for telling us. Sorry to hear that, if there something we can do to turn this let us know",
-    "suggestion": "Your suggestion has been recorded for future review by the team. If this is something we need to get back to you right now just comment \"help\""
-  },
-  "chat_plugin": {
-    "prompt": "Thanks for visiting our store, be sure to check out all the great styles we have on the summer section."
-  },
-  "fallback": {
-    "any": "Sorry, but I don’t recognize \"{{message}}\".",
-    "attachment": "Thanks for sending this attachment, we can connect you to an agent to review it or we can start over"
-  }
+    "profile": {
+        "greeting": "Welcome to The University of Technology, Jamaica {{user_first_name}}! Click get started to enjoy our sample automated messaging experience. If you want to build a similar one visit https://fb.me/get-sample-oc"
+    },
+    "menu": {
+        "support": "Customer Support",
+        "order": "Module Guides",
+        "help": "Other",
+        "suggestion": "Paying Tuition",
+        "shop": "Shop now",
+        "start_over": "Start over"
+    },
+    "get_started": {
+        "welcome": "Hi {{userFirstName}}! Welcome to The University of Technology, Jamaica, the home of world class athletes!",
+        "guidance": "At any time, use the menu below to navigate through the options",
+        "help": "What would you like information about today?"
+    },
+    "leadgen": {
+        "promo": "Hi {{userFirstName}}, finding great outfits is now easier and more convenient.",
+        "title": "50% Coupon",
+        "subtitle": "Here is your coupon",
+        "apply": "Apply discount",
+        "coupon": "Added your coupon to this thread, you can now check out the discounted summer collection"
+    },
+    "curation": {
+        "prompt": "Please visit this link to pay your tuition online: https://ecommerce.utech.edu.jm/",
+        "occasion": "You're welcome, bye.",
+        "price": "How much are you looking to spend?",
+        "me": "Thanks!!",
+        "someone": "Someone else",
+        "work": "Work",
+        "dinner": "Dinner",
+        "party": "Party",
+        "sales": "Talk to sales",
+        "shop": "Shop this look",
+        "title": "Summer collection 2019",
+        "subtitle": "Featured outfit",
+        "show": "Another look"
+    },
+    "order": {
+        "prompt": "Please use the following link to view the module selection guide for your course of study: http://utech.edu.jm/admissions/enrolment/undergraduate-students/module",
+        "search": "Search by order number",
+        "account": "Link my Account",
+        "dialog": "Account linking dialog",
+        "searching": "Searching for your last order...",
+        "number": "Sure, please write the order number",
+        "status": "Your order is on it’s way, expect to have it in 3 days."
+    },
+    "care": {
+        "prompt": "Please let me know what you want information on.",
+        "order": "Admissions/ Enrollment",
+        "billing": "Fee Payment/ Accounting",
+        "other": "Medical Appointment",
+        "issue": "Hi {{userFirstName}},please visit the following link for information on Admissions/ Enrollemnt: http://utech.edu.jm/admissions.",
+        "default": "Hi {{userFirstName}}, please visit your portal at this link to get your fee payment information: https://evisionweb.utech.edu.jm/",
+        "style": "Hi {{userFirstName}}, please visit the following link to make or view a medical appointment: http://utech.edu.jm/ohcs . Don't forget your health card and ID!",
+        "end": "It was my pleasure serving you. Bye!",
+        "help": "Help"
+    },
+    "survey": {
+        "prompt": "online classes",
+        "positive": "What courses are offered online?",
+        "neutral": "Thanks for the feedback, if there something we should improve feel free to comment with #suggestion",
+        "negative": "Thanks for telling us. Sorry to hear that, if there something we can do to turn this let us know",
+        "suggestion": "Your suggestion has been recorded for future review by the team. If this is something we need to get back to you right now just comment \"help\""
+    },
+    "chat_plugin": {
+        "prompt": "Thanks for visiting our store, be sure to check out all the great styles we have on the summer section."
+    },
+    "fallback": {
+        "any": "Sorry, but I don’t recognize \"{{message}}\".",
+        "attachment": "Thanks for sending this attachment, we can connect you to an agent to review it or we can start over"
+    }
 }
