@@ -51,19 +51,14 @@ module.exports = class Care {
         // Send using the Persona for order issues
 
         response = [
-          Response.genTextWithPersona(
-            i18n.__("care.issue", {
-              userFirstName: this.user.firstName,
-              agentFirstName: config.personaOrder.name,
-              topic: i18n.__("care.order")
-            }),
+          Response.genText(
+            i18n.__("care.issue"),
             config.personaOrder.id
           ),
-          Response.genTextWithPersona(
+          Response.genText(
             i18n.__("care.end"),
             config.personaOrder.id
-          ),
-          Survey.genAgentRating(config.personaOrder.name)
+          )
         ];
         break;
 
@@ -71,19 +66,14 @@ module.exports = class Care {
         // Send using the Persona for billing issues
 
         response = [
-          Response.genTextWithPersona(
-            i18n.__("care.issue", {
-              userFirstName: this.user.firstName,
-              agentFirstName: config.personaBilling.name,
-              topic: i18n.__("care.billing")
-            }),
+          Response.genText(
+            i18n.__("care.default"),
             config.personaBilling.id
           ),
-          Response.genTextWithPersona(
+          Response.genText(
             i18n.__("care.end"),
             config.personaBilling.id
-          ),
-          Survey.genAgentRating(config.personaBilling.name)
+          )
         ];
         break;
 
@@ -110,18 +100,14 @@ module.exports = class Care {
         // Send using the Persona for customer care issues
 
         response = [
-          Response.genTextWithPersona(
-            i18n.__("care.default", {
-              userFirstName: this.user.firstName,
-              agentFirstName: config.personaCare.name
-            }),
+          Response.genText(
+            i18n.__("care.style"),
             config.personaCare.id
           ),
-          Response.genTextWithPersona(
+          Response.genText(
             i18n.__("care.end"),
             config.personaCare.id
-          ),
-          Survey.genAgentRating(config.personaCare.name)
+          )
         ];
         break;
     }
