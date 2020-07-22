@@ -21,18 +21,19 @@ Admin 2.0 assists current and prospective students with FAQs, avoid website navi
 
 ## How we built it
 Tech Stack & Documentation:
-* 1
-* 2
+* 1 Heroku-18
+* 2 ngrok
+* FB Resources
 
 
 ## Challenges we ran into
-1. Challenge 1
-1. Challenge 2
+1. Deploying webhook
+1. Modifying code
 
 
 ## Accomplishments that we're proud of
-* Accomplishment 1
-* Accomplishment 2
+* A working product
+* Scalable solution
 
 
 ## What we learned
@@ -44,11 +45,6 @@ Tech Stack & Documentation:
 Product Roadmap - next features for example
 1. Feature 1
 1. Feature 2
-
-
-## Built With - provide the tech stack used
-* example1
-* example2
 
 
 ## Try it out
