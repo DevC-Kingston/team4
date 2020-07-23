@@ -48,5 +48,5 @@ Product Roadmap - next features for example
 
 
 ## Try it out
-[Add link to Public GitHub Page](link) </br>
+[Add link to Public GitHub Page](https://github.com/DevC-Kingston/team4) </br>
 [Add link to GitHub Page](link)
